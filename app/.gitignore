@@ -1,0 +1,91 @@
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+
+# Keep template env file
+!.env.example
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================
+# Virtual Environments
+# ==========================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# SQLite Databases
+# ==========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================
+# Uploads & User Files
+# ==========================
+uploads/
+temp/
+tmp/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Testing & Coverage
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==========================
+# Type Checking / Linting
+# ==========================
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# ==========================
+# Build & Distribution
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================
+# IDEs
+# ==========================
+.idea/
+.vscode/
+
+# ==========================
+# Operating System Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Jupyter Notebooks
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Misc
+# ==========================
+*.swp
+*.swo
